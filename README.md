@@ -14,6 +14,8 @@ All UI components are prefixed with ```ns```. Attributes do not have a prefix.
 - Grid Layout - ```nsgrid```
 - Stack Layout - ```nsstack```
 - Wrap Layout - ```nswrap```
+- RootLayout - ```nsroot```
+- FlexboxLayout - ```nsflexbox```
 
 ### Widgets
 - Page - ```nspage```
