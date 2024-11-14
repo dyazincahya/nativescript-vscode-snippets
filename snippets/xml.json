@@ -203,6 +203,354 @@
             "</GridLayout>"
         ]
     },
+    "{N} RootLayout": {
+        "prefix": "nsroot",
+        "body": [
+            "<RootLayout>",
+            "   $1",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout align items (flex-start, flex-end, center, baseline & stretch)": {
+        "prefix": "nsflexbox_alignItems",
+        "body": [
+            "<!-- alignItems: 'flex-start' | 'flex-end' | 'center' | 'baseline' | 'stretch' -->",
+            "<FlexboxLayout alignItems=\"$1\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout align items flex-start": {
+        "prefix": "nsflexbox_flexStart",
+        "body": [
+            "<FlexboxLayout alignItems=\"flex-start\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout align items flex-end": {
+        "prefix": "nsflexbox_flexEnd",
+        "body": [
+            "<FlexboxLayout alignItems=\"flex-end\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout align items center": {
+        "prefix": "nsflexbox_center",
+        "body": [
+            "<FlexboxLayout alignItems=\"center\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout align items baseline": {
+        "prefix": "nsflexbox_baseline",
+        "body": [
+            "<FlexboxLayout alignItems=\"baseline\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout align items stretch": {
+        "prefix": "nsflexbox_stretch",
+        "body": [
+            "<FlexboxLayout alignItems=\"stretch\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout flex wrap (nowrap, wrap, wrap-reverse)": {
+        "prefix": "nsflexbox_flexWrap",
+        "body": [
+            "<!-- flexWrap: 'nowrap' | 'wrap' | 'wrap-reverse' -->",
+            "<FlexboxLayout flexWrap=\"$1\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"30%\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"30%\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"30%\" backgroundColor=\"#1089CA\" />",
+            "   <Label text=\"four\" width=\"30%\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout flex wrap nowrap": {
+        "prefix": "nsflexbox_nowrap",
+        "body": [
+            "<FlexboxLayout flexWrap=\"nowrap\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"30%\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"30%\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"30%\" backgroundColor=\"#1089CA\" />",
+            "   <Label text=\"four\" width=\"30%\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout flex wrap wrap": {
+        "prefix": "nsflexbox_wrap",
+        "body": [
+            "<FlexboxLayout flexWrap=\"wrap\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"30%\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"30%\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"30%\" backgroundColor=\"#1089CA\" />",
+            "   <Label text=\"four\" width=\"30%\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout flex wrap wrap-reverse": {
+        "prefix": "nsflexbox_wrapReverse",
+        "body": [
+            "<FlexboxLayout flexWrap=\"wrap-reverse\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"30%\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"30%\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"30%\" backgroundColor=\"#1089CA\" />",
+            "   <Label text=\"four\" width=\"30%\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    
+    "{N} FlexboxLayout flex direction (row, row-reverse, column, column-reverse)": {
+        "prefix": "nsflexbox_flexDir",
+        "body": [
+            "<!-- flexDirection: 'row' | 'row-reverse' | 'column' | 'column-reverse' -->",
+            "<FlexboxLayout flexDirection=\"$1\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout flex direction vertical": {
+        "prefix": "nsflexbox_vertical",
+        "body": [
+            "<FlexboxLayout flexDirection=\"column\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" height=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" height=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" height=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout flex direction vertical revers": {
+        "prefix": "nsflexbox_verticalRev",
+        "body": [
+            "<FlexboxLayout flexDirection=\"column-reverse\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" height=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" height=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" height=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout flex direction horizontal": {
+        "prefix": "nsflexbox_horizontal",
+        "body": [
+            "<FlexboxLayout flexDirection=\"row\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout flex direction horizontal revers": {
+        "prefix": "nsflexbox_horizontalRev",
+        "body": [
+            "<FlexboxLayout flexDirection=\"row-reverse\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout justify content (flex-start, flex-end, center, space-between, space-around)": {
+        "prefix": "nsflexbox_justifyContent",
+        "body": [
+            "<!-- justifyContent: 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' -->",
+            "<FlexboxLayout justifyContent=\"$1\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout justify content flex-start": {
+        "prefix": "nsflexbox_flexStart",
+        "body": [
+            "<FlexboxLayout justifyContent=\"flex-start\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout justify content flex-end": {
+        "prefix": "nsflexbox_flexEnd",
+        "body": [
+            "<FlexboxLayout justifyContent=\"flex-end\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout justify content center": {
+        "prefix": "nsflexbox_center",
+        "body": [
+            "<FlexboxLayout justifyContent=\"center\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout justify content space-between": {
+        "prefix": "nsflexbox_spaceBetween",
+        "body": [
+            "<FlexboxLayout justifyContent=\"space-between\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout justify content space-around": {
+        "prefix": "nsflexbox_spaceAround",
+        "body": [
+            "<FlexboxLayout justifyContent=\"space-around\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout align content (flex-start, flex-end, center, space-between, space-around)": {
+        "prefix": "nsflexbox_alignContent",
+        "body": [
+            "<!-- alignContent: 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around' | 'stretch' -->",
+            "<FlexboxLayout alignContent=\"$1\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout align content flex-start": {
+        "prefix": "nsflexbox_flexStart",
+        "body": [
+            "<FlexboxLayout alignContent=\"flex-start\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout align content flex-end": {
+        "prefix": "nsflexbox_flexEnd",
+        "body": [
+            "<FlexboxLayout alignContent=\"flex-end\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout align content center": {
+        "prefix": "nsflexbox_center",
+        "body": [
+            "<FlexboxLayout alignContent=\"center\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout align content space-between": {
+        "prefix": "nsflexbox_spaceBetween",
+        "body": [
+            "<FlexboxLayout alignContent=\"space-between\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout align content space-around": {
+        "prefix": "nsflexbox_spaceAround",
+        "body": [
+            "<FlexboxLayout alignContent=\"space-around\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout align content stretch": {
+        "prefix": "nsflexbox_stretch",
+        "body": [
+            "<FlexboxLayout alignContent=\"stretch\" backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" width=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" width=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" width=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout child order": {
+        "prefix": "nsflexbox_order",
+        "body": [
+            "<FlexboxLayout backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" order=\"$1\" width=\"70\" height=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" order=\"$2\" width=\"70\" height=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" order=\"$3\" width=\"70\" height=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout child flexGrow": {
+        "prefix": "nsflexbox_flexGrow",
+        "body": [
+            "<FlexboxLayout backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" flexGrow=\"$1\" width=\"70\" height=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" flexGrow=\"$1\" width=\"70\" height=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" flexGrow=\"$3\" width=\"70\" height=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout child flexShrink": {
+        "prefix": "nsflexbox_flexShrink",
+        "body": [
+            "<FlexboxLayout backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" flexShrink=\"$1\" width=\"70\" height=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" flexShrink=\"$1\" width=\"70\" height=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" flexShrink=\"$3\" width=\"70\" height=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout child alignSelf": {
+        "prefix": "nsflexbox_alignSelf",
+        "body": [
+            "<FlexboxLayout backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" alignSelf=\"$1\" width=\"70\" height=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" alignSelf=\"$1\" width=\"70\" height=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" alignSelf=\"$3\" width=\"70\" height=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
+    "{N} FlexboxLayout child flexWrapBefore": {
+        "prefix": "nsflexbox_flexWrapBefore",
+        "body": [
+            "<FlexboxLayout backgroundColor=\"#3c495e\">",
+            "   <Label text=\"first\" flexWrapBefore=\"$1\" width=\"70\" height=\"70\" backgroundColor=\"#43B3F4\" />",
+            "   <Label text=\"second\" flexWrapBefore=\"$1\" width=\"70\" height=\"70\" backgroundColor=\"#075B88\" />",
+            "   <Label text=\"third\" flexWrapBefore=\"$3\" width=\"70\" height=\"70\" backgroundColor=\"#1089CA\" />",
+            "</RootLayout>"
+        ]
+    },
 
     // Views
     "{N} Scroll View": {
@@ -464,5 +812,45 @@
     "{N} Height Attribute": {
         "prefix": "height",
         "body": "height=\"$1\"$2"
+    },
+    "{N} flexDirection Attribute": {
+        "prefix": "flexDirection",
+        "body": "flexDirection=\"$1\"$2"
+    },
+    "{N} flexWrap Attribute": {
+        "prefix": "flexWrap",
+        "body": "flexWrap=\"$1\"$2"
+    },
+    "{N} justifyContent Attribute": {
+        "prefix": "justifyContent",
+        "body": "justifyContent=\"$1\"$2"
+    },
+    "{N} alignItems Attribute": {
+        "prefix": "alignItems",
+        "body": "alignItems=\"$1\"$2"
+    },
+    "{N} alignContent Attribute": {
+        "prefix": "alignContent",
+        "body": "alignContent=\"$1\"$2"
+    },
+    "{N} order Attribute": {
+        "prefix": "order",
+        "body": "order=\"$1\"$2"
+    },
+    "{N} flexGrow Attribute": {
+        "prefix": "flexGrow",
+        "body": "flexGrow=\"$1\"$2"
+    },
+    "{N} flexShrink Attribute": {
+        "prefix": "flexShrink",
+        "body": "flexShrink=\"$1\"$2"
+    },
+    "{N} alignSelf Attribute": {
+        "prefix": "alignSelf",
+        "body": "alignSelf=\"$1\"$2"
+    },
+    "{N} flexWrapBefore Attribute": {
+        "prefix": "flexWrapBefore",
+        "body": "flexWrapBefore=\"$1\"$2"
     }
 }
